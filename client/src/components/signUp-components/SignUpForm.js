@@ -5,8 +5,6 @@ import { useEffect, useState } from 'react';
 import { ErrorMessage } from '@hookform/error-message';
 import { useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { setIsLogin } from '../../redux/loginSlice';
-import { setUserInfo } from '../../redux/userInfoSlice';
 
 const Container = styled.div`
   width: 100%;
